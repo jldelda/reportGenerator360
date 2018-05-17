@@ -3,7 +3,7 @@
 source("global_utils.R", local = TRUE) #global functions available for the whole session
 # 
 function(input, output, session) {
-  # download pre-generated PDF -----------------------------
+  # download pre-generated PDF -------------------------------
   
   # observeEvent(input$previewReport,{
   #   output$previewPDF <- renderUI({
